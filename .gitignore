@@ -1,7 +1,7 @@
 # want to ignore .res and .log files because these will be generated so often
-DTU/**/*.res
-DTU/**/*.log
+./**/*.res
+./**/*.log
 
 # want to ignore HAWC2 .exe and .so files
-DTU/hawc2-main/*.so*
-DTU/hawc2-main/*.exe
+hawc2-main/*.so*
+hawc2-main/*.exe

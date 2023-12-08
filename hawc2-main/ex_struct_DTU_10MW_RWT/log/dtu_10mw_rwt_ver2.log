@@ -1,0 +1,1085 @@
+ Logfile: ./log/dtu_10mw_rwt_ver2.log is open for log outputs
+ ***********************************************************************
+ *  Build information for HAWC2MB
+ *  Aeroelastic tool HAWC2MB
+ *  Intel, version         2021 ,     20210228
+ *  Linux
+ ***********************************************************************
+ *  GIT-TAG        = 13.0.5
+ *  GIT-BRANCH     = 
+ *  BUILD_TYPE     = Linux64 RELEASE
+ *  BUILDER        = gitlab-runner
+ *  COMPUTER_NAME  = runner-ekfmjxy-project-399-concurrent-3
+ *  BUILD_DATE     = 2023-08-31
+ ***********************************************************************
+________________________________________________________________________
+  Log file output
+                                                       Time : 14:06:34
+                                                       Date : 22:10.2023
+________________________________________________________________________
+ Newmark commands read with succes
+ Simulation commands read with succes
+ Reading data of main body : tower
+ Succes opening ./data/DTU_10MW_RWT_Tower_st.dat
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ Topologi main body tower commands read with succes
+ Reading data of main body : towertop
+ Succes opening ./data/DTU_10MW_RWT_Towertop_st.dat
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ Topologi main body towertop commands read with succes
+ Reading data of main body : shaft
+ Succes opening ./data/DTU_10MW_RWT_Shaft_st.dat
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ Topologi main body shaft commands read with succes
+ Reading data of main body : hub1
+ Succes opening ./data/DTU_10MW_RWT_Hub_st.dat
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ Topologi main body hub1 commands read with succes
+ Reading data of main body : hub2
+ Topologi main body hub2 commands read with succes
+ Reading data of main body : hub3
+ Topologi main body hub3 commands read with succes
+ Reading data of main body : blade1
+ Succes opening ./data/DTU_10MW_RWT_Blade_st.dat
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ Topologi main body blade1 commands read with succes
+ Reading data of main body : blade2
+ Topologi main body blade2 commands read with succes
+ Reading data of main body : blade3
+ Topologi main body blade3 commands read with succes
+ Base orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ Orientation input commands read with succes
+ Fix0 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Bearing1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ bearing2 constraint input commands read with succes
+ bearing2 constraint input commands read with succes
+ bearing2 constraint input commands read with succes
+ constraint input commands read with succes
+ Topologi commands read with succes
+ output commands read with succes
+ Output commands read
+ Initialization of structure
+ Creating file folder animation
+ Initialization of wind
+ Starting simulation
+Constraint residual is .7774E-13 < .70. Max residual in constraint 86
+ Global time =   2.000000000000000E-002  Iter =            1
+ Creating file folder res
+ Creating file folder res
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   4.000000000000000E-002  Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   6.000000000000000E-002  Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   8.000000000000000E-002  Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.100000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.120000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.140000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.160000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.180000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.200000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.220000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.240000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.260000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.280000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.300000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.320000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.340000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.360000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.380000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.400000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.420000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.440000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.460000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.480000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.500000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.520000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.540000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.560000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.580000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.600000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.620000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.640000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.660000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.680000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.700000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.720000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.740000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.760000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.780000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.800000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.820000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.840000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.860000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.880000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.900000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.920000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.940000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.960000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =   0.980000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.00000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.02000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.04000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.06000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.08000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.10000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.12000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.14000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.16000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.18000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.20000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.22000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.24000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.26000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.28000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.30000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.32000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.34000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.36000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.38000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.40000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.42000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.44000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.46000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.48000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.50000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.52000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.54000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.56000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.58000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.60000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.62000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.64000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.66000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.68000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.70000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.72000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.74000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.76000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.78000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.80000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.82000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.84000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.86000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.88000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.90000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.92000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.94000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.96000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    1.98000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.00000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.02000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.04000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.06000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.08000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.10000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.12000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.14000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.16000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.18000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.20000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.22000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.24000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.26000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.28000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.30000000000000       Iter =            2
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.32000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.34000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.36000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.38000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.40000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.42000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.44000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.46000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.48000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.50000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.52000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.54000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.56000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.58000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.60000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.62000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.64000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.66000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.68000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.70000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.72000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.74000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.76000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.78000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.80000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.82000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.84000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.86000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.88000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.90000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.92000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.94000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.96000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    2.98000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.00000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.02000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.04000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.06000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.08000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.10000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.12000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.14000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.16000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.18000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.20000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.22000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.24000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.26000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.28000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.30000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.32000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.34000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.36000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.38000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.40000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.42000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.44000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.46000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.48000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.50000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.52000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.54000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.56000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.58000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.60000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.62000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.64000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.66000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.68000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.70000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.72000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.74000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.76000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.78000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.80000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.82000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.84000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.86000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.88000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.90000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.92000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.94000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.96000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    3.98000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.00000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.02000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.04000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.06000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.08000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.10000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.12000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.14000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.16000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.18000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.20000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.22000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.24000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.26000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.28000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.30000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.32000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.34000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.36000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.38000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.40000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.42000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.44000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.46000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.48000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.50000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.52000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.54000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.56000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.58000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.60000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.62000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.64000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.66000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.68000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.70000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.72000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.74000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.76000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.78000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.80000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.82000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.84000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.86000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.88000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.90000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.92000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.94000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.96000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    4.98000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Global time =    5.00000000000000       Iter =            1
+ *** ERROR *** Bearing sensor pitch1 not found
+ *** ERROR *** Bearing sensor pitch2 not found
+ *** ERROR *** Bearing sensor pitch3 not found
+ Elapsed time :    1.210938    

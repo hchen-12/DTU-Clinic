@@ -1,0 +1,23 @@
+ Logfile: ./logfiles/nrel_5mw_blade_eig_eig.log is open for log outputs
+ ***********************************************************************
+ *  Build information for HAWC2MB
+ *  Aeroelastic tool HAWC2MB
+ *  Intel, version         2021 ,     20210228
+ *  Linux
+ ***********************************************************************
+ *  GIT-TAG        = 13.0.5
+ *  GIT-BRANCH     = 
+ *  BUILD_TYPE     = Linux64 RELEASE
+ *  BUILDER        = gitlab-runner
+ *  COMPUTER_NAME  = runner-ekfmjxy-project-399-concurrent-3
+ *  BUILD_DATE     = 2023-08-31
+ ***********************************************************************
+________________________________________________________________________
+  Log file output
+                                                       Time : 14:24:52
+                                                       Date : 22:10.2023
+________________________________________________________________________
+ Newmark commands read with succes
+ Simulation commands read with succes
+ Reading data of main body : blade1
+ *** ERROR ***  opening timoschenko data file ./data/NREL_5MW_st.txt - ERROR
