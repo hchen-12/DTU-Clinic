@@ -5,3 +5,6 @@
 # want to ignore HAWC2 .exe and .so files
 hawc2-main/*.so*
 hawc2-main/*.exe
+
+# ignore generated htc files
+

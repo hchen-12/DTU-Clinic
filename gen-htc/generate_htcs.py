@@ -4,7 +4,7 @@ import numpy as np
 from lacbox.htc import HTCFile
 
 # initialize htc file
-startPath = 'DTU-Clinic/hawc2-main/VAWT_model'                                # initial path to the git repo (make sure this is in your home folder) and to the model
+startPath = '../hawc2-main/VAWT_model'                  # initial (relative) path to the git repo (make sure this is in your home folder) and to the model
 modelpath = Path(startPath)                             # path to the model
 fname =  modelpath / 'htc/H-rotor_3blades.htc'          # path from the model to the htc file
 htc = HTCFile(fname, modelpath=modelpath)               # create htc file object
