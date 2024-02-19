@@ -7,4 +7,4 @@ hawc2-main/*.so*
 hawc2-main/*.exe
 
 # ignore generated htc files
-./**test**.htc
+./**/htc/htc_test_*.htc
