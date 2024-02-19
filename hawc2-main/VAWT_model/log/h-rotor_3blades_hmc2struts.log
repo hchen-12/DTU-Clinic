@@ -1,0 +1,141 @@
+ Logfile: ./log/h-rotor_3blades_hmc2struts.log is open for log outputs
+ ***********************************************************************
+ *  Build information for HAWC2MB
+ *  Aeroelastic tool HAWC2MB
+ *  Intel, version         2021 ,     20210228
+ *  Linux
+ ***********************************************************************
+ *  GIT-TAG        = 13.0.5
+ *  GIT-BRANCH     = 
+ *  BUILD_TYPE     = Linux64 RELEASE
+ *  BUILDER        = gitlab-runner
+ *  COMPUTER_NAME  = runner-ekfmjxy-project-399-concurrent-3
+ *  BUILD_DATE     = 2023-08-31
+ ***********************************************************************
+________________________________________________________________________
+  Log file output
+                                                       Time : 10:07:53
+                                                       Date : 19:02.2024
+________________________________________________________________________
+ Newmark commands read with succes
+ Simulation commands read with succes
+ Reading data of main body : tower
+ Succes opening ./data/tower_stiff.st
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ *** INFO *** No damping applied to main_body tower
+ Topologi main body tower commands read with succes
+ Reading data of main body : towertop
+ Succes opening ./data/tower_stiff.st
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ *** INFO *** No damping applied to main_body towertop
+ Topologi main body towertop commands read with succes
+ Reading data of main body : hub1
+ Succes opening ./data/tower_stiff.st
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ *** INFO *** No damping applied to main_body hub1
+ Topologi main body hub1 commands read with succes
+ Reading data of main body : hub2
+ *** INFO *** No damping applied to main_body hub2
+ Topologi main body hub2 commands read with succes
+ Reading data of main body : hub3
+ *** INFO *** No damping applied to main_body hub3
+ Topologi main body hub3 commands read with succes
+ Reading data of main body : hub1b
+ *** INFO *** No damping applied to main_body hub1b
+ Topologi main body hub1b commands read with succes
+ Reading data of main body : hub2b
+ *** INFO *** No damping applied to main_body hub2b
+ Topologi main body hub2b commands read with succes
+ Reading data of main body : hub3b
+ *** INFO *** No damping applied to main_body hub3b
+ Topologi main body hub3b commands read with succes
+ Reading data of main body : strut1
+ Succes opening ./data/strut_stiff.st
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ *** INFO *** No damping applied to main_body strut1
+ Topologi main body strut1 commands read with succes
+ Reading data of main body : strut2
+ *** INFO *** No damping applied to main_body strut2
+ Topologi main body strut2 commands read with succes
+ Reading data of main body : strut3
+ *** INFO *** No damping applied to main_body strut3
+ Topologi main body strut3 commands read with succes
+ Reading data of main body : strut1b
+ *** INFO *** No damping applied to main_body strut1b
+ Topologi main body strut1b commands read with succes
+ Reading data of main body : strut2b
+ *** INFO *** No damping applied to main_body strut2b
+ Topologi main body strut2b commands read with succes
+ Reading data of main body : strut3b
+ *** INFO *** No damping applied to main_body strut3b
+ Topologi main body strut3b commands read with succes
+ Reading data of main body : blade1
+ Succes opening ./data/Stiff.st
+ timoschenko input commands read with succes
+ topologi_c2def_inputs read with succes
+ *** INFO *** No damping applied to main_body blade1
+ Topologi main body blade1 commands read with succes
+ Reading data of main body : blade2
+ *** INFO *** No damping applied to main_body blade2
+ Topologi main body blade2 commands read with succes
+ Reading data of main body : blade3
+ *** INFO *** No damping applied to main_body blade3
+ Topologi main body blade3 commands read with succes
+ Base orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ relative orientation input commands read with succes
+ Orientation input commands read with succes
+ Fix0 constraint input commands read with succes
+ bearing3 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ Fix1 constraint input commands read with succes
+ constraint input commands read with succes
+ Topologi commands read with succes
+ Wind commands read with succes
+ Aerodynamic commands read with succes
+ output commands read with succes
+ Output commands read
+ Initialization of structure
+ Initializing of aero rotor...
+ Initialization of rotor aerodynamics
+ Succes opening ./data/H-rotor_SOL_0p08_updated.ae
+ In reading of ae_file, column for dyn. stall choice found and used
+ Succes opening ./data/naca0018_pc.pc
+ *** ERROR *** Error during read of PC file

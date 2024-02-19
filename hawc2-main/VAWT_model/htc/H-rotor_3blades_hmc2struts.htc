@@ -19,7 +19,7 @@ begin new_htc_structure;
     node_distribution     c2_def ;
 	gravity 0;
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
+      filename ./data/tower_stiff.st ;
       set 1 1 ; 
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -38,8 +38,8 @@ begin new_htc_structure;
     node_distribution     c2_def ;
 	gravity 0;
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
-      set 1 1 ;                
+      filename ./data/tower_stiff.st ;
+      set 1 3 ;                
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
       nsec 3;
@@ -55,8 +55,8 @@ begin new_htc_structure;
     node_distribution     c2_def ;
     gravity 0;    	
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
-      set 1 1;                
+      filename ./data/tower_stiff.st ;
+      set 1 3;                
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
       nsec 2;
@@ -97,7 +97,7 @@ begin new_htc_structure;
     node_distribution    c2_def;
 	gravity 0;
    begin timoschenko_input ;
-      filename ./data/Stiff.st ;
+      filename ./data/strut_stiff.st ;
       set 1 1 ;                set subset
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -431,8 +431,8 @@ begin aero ;
   link 2 mbdy_c2_def blade2;
   link 3 mbdy_c2_def blade3;
 
-  ae_filename        ./data/H-rotor_SOL_0p08.ae ;  
-  pc_filename        ./data/H-rotor.pc ;  
+  ae_filename        ./data/H-rotor_SOL_0p08_updated.ae ;  
+  pc_filename        ./data/naca0018_pc.pc ;  
   induction_method   3 ;   0=none, 3=vawt
   aerocalc_method    1 ;     0=ingen aerodynamic, 1=med aerodynamic
   aerosections       30;
