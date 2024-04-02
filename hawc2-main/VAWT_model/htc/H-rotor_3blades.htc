@@ -19,7 +19,7 @@ begin new_htc_structure;
     node_distribution     c2_def ;
 	gravity 0;
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
+      filename ./data/old/Stiff.st ;
       set 1 1 ; 
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -38,7 +38,7 @@ begin new_htc_structure;
     node_distribution     c2_def ;
 	gravity 0;
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
+      filename ./data/old/Stiff.st ;
       set 1 1 ;                
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -54,7 +54,7 @@ begin new_htc_structure;
     node_distribution     c2_def ;
     gravity 0;    	
 	begin timoschenko_input;
-      filename ./data/Stiff.st ;
+      filename ./data/old/Stiff.st ;
       set 1 1;                
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -78,7 +78,7 @@ begin new_htc_structure;
     node_distribution    c2_def;
 	gravity 0;
    begin timoschenko_input ;
-      filename ./data/Stiff.st ;
+      filename ./data/old/Stiff.st ;
       set 1 1 ;                set subset
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
@@ -102,7 +102,7 @@ begin new_htc_structure;
     node_distribution    c2_def;
 	gravity 0;
    begin timoschenko_input ;
-      filename ./data/Stiff.st ;
+      filename ./data/old/Stiff.st ;
       set 1 1 ;                set subset
     end timoschenko_input;
     begin c2_def;              Definition of centerline (main_body coordinates)
