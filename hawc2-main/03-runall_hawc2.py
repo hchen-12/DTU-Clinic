@@ -9,7 +9,7 @@ import subprocess
 MODEL_DIR = Path('./3blade_1strut_model/')  # model directory
 HTC_RELDIR = Path('htc')  # folder with htc files
 HAWC2_129_PATH = './HAWC2_12.9_win32/HAWC2MB.exe'  # relative path to 12.9 HAWC2 executable
-HAWC2_NEW_PATH = './HAWC2MB.exe'  # relative path to new HAWC2 executable
+HAWC2_NEW_PATH = 'hawc2mb.exe'  # relative path to new HAWC2 executable
 
 RUN_129 = False  # run 12.9 cases?
 RUN_NEW = True  # run new cases?
