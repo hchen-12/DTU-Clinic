@@ -1,0 +1,108 @@
+%% most updated post processing code. download all hdf5 files to the same place in your computer. change basefile for own computer. Run.
+%% Peyton TenEyck peytoniteneyck@gmail.com 4/16/24
+clc
+clear
+numOfSims = 5;
+R = 0.75; %m
+rho = 1.204; %kg/m^3
+H = 6/3.2808399; %m
+A = (R*2)*H; %m^2
+basefile =  "C:\Users\peyto\Downloads\wsp3_htc";
+
+simresfile = {};
+rtc = {};
+
+for j=1:numOfSims
+    num = j-1;
+    filename = append(basefile, string(num));
+    filename = append(filename, ".hdf5");
+    info = h5info(filename);
+    group = info.Groups
+
+    bea3angle =[];
+    bea3angle_speed = [];
+    WSPVx=[];
+    WSPVy = [];
+    WSPVz=[];
+    w = [];
+    AeThrust = [];
+    AeTorque = [];
+    AePower = [];
+    IFy1 = [];
+    IFy2 = [];
+    IFy3 = [];
+    fx = [];
+    fy=[];
+    fz=[];
+    Mx=[];
+    My=[];
+    Mz=[];
+
+    for i = 1:length(group)
+        str = append(group(i).Name,'/data');
+    
+        data = h5read(filename, str );
+
+        bea3angle(end+1) =data(1);
+        bea3angle_speed(end+1) = data(2);
+        WSPVx(end+1)=data(3);
+        WSPVy(end+1) = data(4);
+        WSPVz(end+1)=data(5);
+        w(end+1) = data(6);
+        AeThrust(end+1) = data(7);
+        AeTorque(end+1) = data(8);
+        AePower(end+1) = data(9);
+        IFy1(end+1) = data(10);
+        IFy2(end+1) = data(11);
+        IFy3(end+1) = data(12);
+        fx(end+1) = data(13);
+        fy(end+1)=data(14);
+        fz(end+1)=data(15);
+        Mx(end+1)=data(16);
+        My(end+1)=data(17);
+        Mz(end+1)=data(18);
+    end
+    rtc(j) = {struct('filename', filename,'rtcnum',j,'bea3angle',bea3angle,'bea3angle_speed',bea3angle_speed,'WSPVx',WSPVx,'WSPVy',WSPVy,'WSPVz',WSPVz,'w',w,'AeThrust',AeThrust,'AeTorque',AeTorque,'AePower',AePower,'IFy1',IFy1,'IFy2',IFy2,'IFy3',IFy3,'fx',fx,'fy',fy,'fz',fz,'Mx',Mx,'My',My,'Mz',Mz)};
+end
+
+tsr=[];
+cpae=[];
+cpmz = [];
+mz=[];
+
+for j = 1:length(rtc)
+    TSR = [];
+    CPae = [];
+    CPmz = [];
+    MZ = [];
+    for i = 1000:2500
+        TSR(end+1)= (rtc{1,j}.w(i))*R/rtc{1,j}.WSPVy(i);
+        CPae(end+1)=(rtc{1,j}.AePower(i)*1000)/(0.5*rho*A*((rtc{1,j}.WSPVy(i))^3));
+        CPmz(end+1)=(rtc{1,j}.Mz(i)*1000*rtc{1,j}.w(i))/(0.5*rho*A*((rtc{1,j}.WSPVy(i))^3));
+        MZ(end+1)=rtc{1,j}.Mz(i)*1000;
+    end
+    tsr(end+1)=mean(TSR);
+    cpae(end+1) = mean(CPae);
+    cpmz(end+1) = mean(CPmz);
+    mz(end+1)=mean(MZ);
+    j
+end
+
+figure(1)
+clf
+plot(tsr,cpae)
+grid on
+hold on
+plot(tsr, cpmz)
+legend("Cp using AErotPower", "Cp using Mz*Omega")
+xlabel("TSR")
+ylabel("Cp")
+title("Cp vs TSR")
+
+figure(2)
+clf
+plot(tsr, mz)
+grid on
+xlabel("TSR")
+ylabel("Mz [N]")
+title("Mz vs TSR")
