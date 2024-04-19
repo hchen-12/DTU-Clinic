@@ -1,0 +1,233 @@
+  begin simulation;
+    time_stop	20;	120;
+    solvertype	1;	(newmark)
+    on_no_convergence	continue;
+    logfile	./log/wsp3_htc7.log;
+    visualization	./visualization/wsp3_htc7.hdf5;
+    begin newmark;
+      beta	0.27;
+      gamma	0.51;
+      deltat	0.008;
+      bdynamic	1;
+    end newmark;
+  end simulation;
+  begin new_htc_structure;
+    begin main_body;	tower 28.0m
+      name	tower;
+      type	timoschenko;
+      nbodies	1;
+      node_distribution	c2_def;
+      gravity	0;
+      begin timoschenko_input;
+        filename	./data/tower_stiff.st;
+        set	1 2;
+      end timoschenko_input;
+      begin c2_def;	Definition of centerline (main_body coordinates)
+        nsec	5;
+        sec	1 0 0 0 0;	x,y,z,twist
+        sec	2 0 0 -0.1 0;
+        sec	3 0 0 -0.2 0;
+        sec	4 0 0 -0.3 0;
+        sec	5 0 0 -0.4 0;
+      end c2_def;
+    end main_body;
+    begin main_body;
+      name	towertop;	tower 2.0m
+      type	timoschenko;
+      nbodies	1;
+      node_distribution	c2_def;
+      gravity	0;
+      begin timoschenko_input;
+        filename	./data/tower_stiff.st;
+        set	1 2;
+      end timoschenko_input;
+      begin c2_def;	Definition of centerline (main_body coordinates)
+        nsec	2;
+        sec	1 0 0 0 0;	x,y,z,twist
+        sec	2 0 0 -1.829 0;
+      end c2_def;
+    end main_body;
+    begin main_body;
+      name	strut1;
+      type	timoschenko;
+      nbodies	1;
+      node_distribution	c2_def;
+      gravity	0;
+      begin timoschenko_input;
+        filename	./data/strut_stiff.st;
+        set	1 1;	set subset
+      end timoschenko_input;
+      begin c2_def;	Definition of centerline (main_body coordinates)
+        nsec	2;
+        sec	1 0 0 0 0;
+        sec	2 0 0 0.75 0;
+      end c2_def;
+    end main_body;
+    begin main_body;
+      name	strut2;
+      copy_main_body	strut1;
+    end main_body;
+    begin main_body;
+      name	strut3;
+      copy_main_body	strut1;
+    end main_body;
+    begin main_body;
+      name	blade1;
+      type	timoschenko;
+      nbodies	1;
+      node_distribution	c2_def;
+      gravity	0;
+      begin timoschenko_input;
+        filename	./data/blade_stiff.st;
+        set	1 1;	set subset
+      end timoschenko_input;
+      begin c2_def;	Definition of centerline (main_body coordinates)
+        nsec	5;
+        sec	1 0 0 0 0;
+        sec	2 0 0 0.4572 0;
+        sec	3 0 0 0.9145 0;
+        sec	4 0 0 1.3718 0;
+        sec	5 0 0 1.829 0;
+      end c2_def;
+    end main_body;
+    begin main_body;
+      name	blade2;
+      copy_main_body	blade1;
+    end main_body;
+    begin main_body;
+      name	blade3;
+      copy_main_body	blade1;
+    end main_body;
+    begin orientation;
+      begin base;
+        mbdy	tower;
+        inipos	0 0 0;	initial position of node 1
+        mbdy_eulerang	0 0 0;
+      end base;
+      begin relative;
+        mbdy1	tower last;
+        mbdy2	towertop 1;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_ini_rotvec_d1	0 0 1 1.426;	mbdy initial rotation velocity x.y.z.angle velocity[rad/s]  (mbdy 2 coordinates)
+      end relative;
+      begin relative;
+        mbdy1	towertop last;
+        mbdy2	strut1 1;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+      end relative;
+      begin relative;
+        mbdy1	towertop last;
+        mbdy2	strut2 1;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+        mbdy2_eulerang	0 120 0;
+      end relative;
+      begin relative;
+        mbdy1	towertop last;
+        mbdy2	strut3 1;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+        mbdy2_eulerang	0 -120 0;
+      end relative;
+      begin relative;
+        mbdy1	strut1 last;
+        mbdy2	blade1 3;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+      end relative;
+      begin relative;
+        mbdy1	strut2 last;
+        mbdy2	blade2 3;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+      end relative;
+      begin relative;
+        mbdy1	strut3 last;
+        mbdy2	blade3 3;
+        mbdy2_eulerang	0 0 0;
+        mbdy2_eulerang	90 0 0;
+      end relative;
+    end orientation;
+    begin constraint;
+      begin fix0;	fixed to ground in translation and rotation of node 1
+        mbdy	tower;
+      end fix0;
+      begin bearing3;	fixed speed bearing
+        name	shaft_rot;
+        mbdy1	tower last;
+        mbdy2	towertop 1;
+        bearing_vector	2 0 0 1;	x=coo (0=global,1=mbdy1,2=mbdy2) vector in mbdy2 coordinates where the free rotation is present
+        omegas	6.8;	rad/s
+      end bearing3;
+      begin fix1;
+        mbdy1	towertop last;
+        mbdy2	strut1 1;
+      end fix1;
+      begin fix1;
+        mbdy1	towertop last;
+        mbdy2	strut2 1;
+      end fix1;
+      begin fix1;
+        mbdy1	towertop last;
+        mbdy2	strut3 1;
+      end fix1;
+      begin fix1;
+        mbdy1	strut1 last;
+        mbdy2	blade1 3;
+      end fix1;
+      begin fix1;
+        mbdy1	strut2 last;
+        mbdy2	blade2 3;
+      end fix1;
+      begin fix1;
+        mbdy1	strut3 last;
+        mbdy2	blade3 3;
+      end fix1;
+    end constraint;
+  end new_htc_structure;
+  begin wind;
+    density	1.225;
+    wsp	3;
+    tint	0.1442;	Turbulence intensity
+    horizontal_input	1;	0=false, 1=true
+    windfield_rotations	0 0 0;	yaw, tilt, rotation
+    center_pos0	0 0 -30;
+    shear_format	1 0.14;	0=none,1=constant,2=log,3=power,4=linear
+    turb_format	0;	0=none, 1=mann,2=flex
+    tower_shadow_method	0;	0=none, 1,3=potential flow, 2,4=jet
+  end wind;
+  begin aero;
+    nblades	3;
+    hub_vec	towertop 3;	vector from hub (normal to rotor plane) directed towards tower top(+3)
+    link	1 mbdy_c2_def blade1;
+    link	2 mbdy_c2_def blade2;
+    link	3 mbdy_c2_def blade3;
+    ae_filename	./data/H-rotor_SOL_0p08_Updated.ae;
+    pc_filename	./data/H-rotor.pc;
+    induction_method	3;	0=none, 3=vawt
+    aerocalc_method	1;	0=ingen aerodynamic, 1=med aerodynamic
+    aerosections	30;
+    ae_sets	1 1 1;
+    tiploss_method	0;	0=none, 1=normal
+    dynstall_method	0;	0=none, 1=stig �ye method,2=mhh method
+  end aero;
+  begin output;
+    filename	./res/wsp3_htc7;
+    data_format	gtsdf;
+    time	0 25;	100 150;
+    buffer	1;
+    general time;
+    constraint bearing3	shaft_rot 3;
+    wind free_wind	1 0 0 -30;
+    aero omega;
+    aero thrust;
+    aero torque;
+    aero power;
+    aero int_force	3 1 2 0 # Blade 1 aerodynamic Fy;
+    aero int_force	3 2 2 0 # Blade 2 aerodynamic Fy;
+    aero int_force	3 3 2 0 # Blade 3 aerodynamic Fy;
+    mbdy forcevec	towertop 1 2 global # Force at hub-height;
+    mbdy momentvec	towertop 1 2 global # Moment at hub-height;
+  end output;
+exit;
