@@ -1,5 +1,5 @@
   begin simulation;
-    time_stop	20;
+    time_stop	60;	120;
     solvertype	1;	(newmark)
     on_no_convergence	continue;
     logfile	./log/wsp3_htc0.log;
@@ -215,7 +215,7 @@
   begin output;
     filename	./res/wsp3_htc0;
     data_format	gtsdf;
-    time	0 25;	100 150;
+    time	0 70;	100 150;
     buffer	1;
     general time;
     constraint bearing3	shaft_rot 3;

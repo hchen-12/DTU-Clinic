@@ -1,5 +1,5 @@
 begin simulation ;
-  time_stop    20;
+  time_stop    60;120;
   solvertype   1 ;    (newmark)
   on_no_convergence continue ;
   logfile   ./log/H-rotor_3blades_hmc1strut.log;
@@ -191,7 +191,7 @@ begin new_htc_structure;
 end new_htc_structure;      
 begin wind ;
   density                 1.225 ;
-  wsp                     3  ;
+  wsp                     5  ;
   tint                    0.1442 ; Turbulence intensity
   horizontal_input        1     ;            0=false, 1=true
   windfield_rotations     0.0  0.0  0.0 ;    yaw, tilt, rotation
@@ -218,7 +218,7 @@ end aero ;
 begin output;
   filename ./res/H-rotor_3blades_hmc1strut ;
   data_format gtsdf;
-  time 0 25;100 150;
+  time 0 70;100 150;
   buffer 1 ;
   general time;
   constraint bearing3 shaft_rot 3  ;
