@@ -1,9 +1,9 @@
   begin simulation;
-    time_stop	20;	120;
+    time_stop	60;	120;
     solvertype	1;	(newmark)
     on_no_convergence	continue;
-    logfile	./log/wsp3_htc2.log;
-    visualization	./visualization/wsp3_htc2.hdf5;
+    logfile	./log/wsp3_htc1.2.log;
+    visualization	./visualization/wsp3_htc1.2.hdf5;
     begin newmark;
       beta	0.27;
       gamma	0.51;
@@ -213,9 +213,9 @@
     dynstall_method	0;	0=none, 1=stig �ye method,2=mhh method
   end aero;
   begin output;
-    filename	./res/wsp3_htc2;
+    filename	./res/wsp3_htc1.2;
     data_format	gtsdf;
-    time	0 25;	100 150;
+    time	0 70;	100 150;
     buffer	1;
     general time;
     constraint bearing3	shaft_rot 3;
