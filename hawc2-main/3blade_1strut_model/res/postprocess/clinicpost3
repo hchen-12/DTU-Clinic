@@ -2,7 +2,7 @@
 %% Peyton TenEyck peytoniteneyck@gmail.com 4/16/24
 clc
 clear
-numOfSims = 5;
+numOfSims = 12;
 R = 0.75; %m
 rho = 1.204; %kg/m^3
 H = 6/3.2808399; %m
@@ -87,6 +87,14 @@ for j = 1:length(rtc)
     mz(end+1)=mean(MZ);
     j
 end
+
+res = [tsr', cpae', cpmz', mz'];
+res2 = sortrows(res);
+
+tsr = res2(:,1);
+cpae = res2(:,2);
+cpmz = res2(:,3);
+mz = res2(:,4);
 
 figure(1)
 clf
